@@ -27,7 +27,7 @@ The trade-off between exploitation and exploration is also faced in reinforcemen
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/tp.png)
 
 #Simulate 
-Using MCMC and Beroulli Bandit to test the different performance between four algorithms
+Using MCMC and Bernoulli Bandit to test the different performance between four algorithms
 ```scala
 class BernoulliBandit(val probabilityArms:Array[Double]) {
   def draw(i:Int): Double ={
