@@ -17,13 +17,15 @@ Website/app optimization problem instead of A/B Test
 #Algorithm
 
 ##Epsilon-Greedy
-![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/eg.png)
+##SoftMax
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/sm.jpg)
+##Upper Confidence Bound 
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/ucb1.jpg)
+##Thompson Sampling
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/tp.jpg)
 
-##Epsilon-Greedy
-![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
+#Experiment
+###Cumulative Reward
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
 
-##Epsilon-Greedy
-![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
-
-##Epsilon-Greedy
-![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
