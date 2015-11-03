@@ -38,6 +38,16 @@ class BernoulliBandit(val probabilityArms:Array[Double]) {
   }
 }
 ```
+
+```sclaa
+trait BanditAlgorithm {
+
+  def selectArm():Int
+  def update(chosenArm:Int,reward:Double)
+  def initialize(n_arms:Int)
+
+}
+```
 #Experiment
 We can compare the performance of accuracy, average reward and cumulative reward.
 
