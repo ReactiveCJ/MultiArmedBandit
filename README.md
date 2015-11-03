@@ -43,10 +43,10 @@ We can compare the performance of accuracy, average reward and cumulative reward
 Following, I only show the chart on the performance of cumulative rewards.
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
 #Implementation
-*Build it yourself
-*This project can be built with sbt 0.13. And the breeze package is used for implementing beta
+* Build it yourself
+* This project can be built with sbt 0.13. And the breeze package is used for implementing beta
 distribution.
-*For SBT, Add these lines to your SBT project definition:
+* For SBT, Add these lines to your SBT project definition:
 ```scala
 libraryDependencies ++= Seq(
 "org.scalanlp" %% "breeze" % "0.11.2"
