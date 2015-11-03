@@ -19,3 +19,11 @@ Website/app optimization problem instead of A/B Test
 ##Epsilon-Greedy
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
 
+##Epsilon-Greedy
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
+
+##Epsilon-Greedy
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
+
+##Epsilon-Greedy
+![image](https://github.com/ReactiveCJ/MultiArmedBandit/master/image/eg.jpg)
