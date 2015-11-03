@@ -72,6 +72,6 @@ libraryDependencies ++= Seq(
 
 *An Information-Theoretic Analysis of Thompson Sampling* by Daniel And Benjamin
 #To Do
-* Contextural Bandit
+* Contextual Bandit
 * Stochastic Bandit
 * implementing on spark to support parallel and online learning
