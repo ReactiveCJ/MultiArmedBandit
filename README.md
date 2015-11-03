@@ -45,6 +45,12 @@ Follow, I only show the chart on the performance of cumulative rewards.
 ###Cumulative Reward
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
 
+#Reference
+[Wiki of MultiArmedBandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit)
+*Bandit Algorithms for Website Optimization* by John Myles White
+*Analysis of Thompson Sampling for the Multi-armed Bandit Problem* by Shipra and Navin
+*An Information-Theoretic Analysis of Thompson Sampling* by Daniel And Benjamin
+
 #To Do
 * Context Bandit
 * Stochastic Bandit
