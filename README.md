@@ -15,7 +15,6 @@ Real Time Bidding of online advertisement
 Website/app optimization problem instead of A/B Test
 
 #Algorithm
-
 ##Epsilon-Greedy
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/eg.png)
 ##SoftMax
@@ -41,10 +40,9 @@ class BernoulliBandit(val probabilityArms:Array[Double]) {
 #Experiment
 We can compare the performance of accuracy, average reward and cumulative reward.
 
-Follow, I only show the chart on the performance of cumulative rewards.
+Following, I only show the chart on the performance of cumulative rewards.
 ###Cumulative Reward
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
-
 #Implementation
 *Build it yourself
 *This project can be built with sbt 0.13. And the breeze package is used for implementing beta
@@ -55,7 +53,6 @@ libraryDependencies ++= Seq(
 "org.scalanlp" %% "breeze" % "0.11.2"
 )
 ```
-
 #Reference
 [Wiki of MultiArmedBandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit)
 
@@ -64,7 +61,6 @@ libraryDependencies ++= Seq(
 *Analysis of Thompson Sampling for the Multi-armed Bandit Problem* by Shipra and Navin
 
 *An Information-Theoretic Analysis of Thompson Sampling* by Daniel And Benjamin
-
 #To Do
 * Contextural Bandit
 * Stochastic Bandit
