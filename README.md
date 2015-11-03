@@ -25,6 +25,19 @@ Website/app optimization problem instead of A/B Test
 ##Thompson Sampling
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/tp.png)
 
+#Simulate 
+Using MCMC and Beroulli Bandit to test the different performance between four algorithms
+```scala
+class BernoulliBandit(val probabilityArms:Array[Double]) {
+  def draw(i:Int): Double ={
+    require( i < probabilityArms.length )
+    if(Random.nextDouble() > probabilityArms(i))
+      0.0
+    else
+      1.0
+  }
+}
+```
 #Experiment
 ###Cumulative Reward
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
