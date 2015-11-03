@@ -14,6 +14,7 @@ The trade-off between exploitation and exploration is also faced in reinforcemen
 # Application
 * Real Time Bidding of online advertisement
 * Website/app optimization problem
+* Other Markov Desion Process Problem
 
 #Algorithm
 ##Epsilon-Greedy
