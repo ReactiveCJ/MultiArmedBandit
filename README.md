@@ -39,7 +39,7 @@ class BernoulliBandit(val probabilityArms:Array[Double]) {
 }
 ```
 
-```sclaa
+```scala
 trait BanditAlgorithm {
 
   def selectArm():Int
