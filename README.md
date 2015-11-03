@@ -45,16 +45,27 @@ Follow, I only show the chart on the performance of cumulative rewards.
 ###Cumulative Reward
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
 
+#Implementation
+*Build it yourself
+*This project can be built with sbt 0.13. And the breeze package is used for implementing beta
+distribution.
+*For SBT, Add these lines to your SBT project definition:
+```scala
+libraryDependencies ++= Seq(
+"org.scalanlp" %% "breeze" % "0.11.2"
+)
+```
+
 #Reference
 [Wiki of MultiArmedBandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit)
 
- *Bandit Algorithms for Website Optimization* by John Myles White
+*Bandit Algorithms for Website Optimization* by John Myles White
 
- *Analysis of Thompson Sampling for the Multi-armed Bandit Problem* by Shipra and Navin
+*Analysis of Thompson Sampling for the Multi-armed Bandit Problem* by Shipra and Navin
 
- *An Information-Theoretic Analysis of Thompson Sampling* by Daniel And Benjamin
+*An Information-Theoretic Analysis of Thompson Sampling* by Daniel And Benjamin
 
 #To Do
-* Context Bandit
+* Contextural Bandit
 * Stochastic Bandit
 * implementing on spark to support parallel and online learning
