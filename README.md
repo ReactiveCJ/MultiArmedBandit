@@ -1,7 +1,7 @@
 # MultiArmedBandit
 Introduction and implementation of the strategies(include Thompson Sampling) for multi-armed bandit Problem
 
-For the more detailed description, See [MultiArmedBandit.pdf]https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/MultiArmedBandit.pdf
+For the more detailed description, See [MultiArmedBandit.pdf](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/MultiArmedBandit.pdf)
 # Definition
 This problem is also called Exploitation/Exploration problem.
 
