@@ -39,6 +39,13 @@ class BernoulliBandit(val probabilityArms:Array[Double]) {
 }
 ```
 #Experiment
+We can compare the performance of accuracy, average reward and cumulative reward.
+
+Follow, I only show the chart on the performance of cumulative rewards.
 ###Cumulative Reward
 ![image](https://github.com/ReactiveCJ/MultiArmedBandit/blob/master/image/AccR.png)
 
+#To Do
+* Context Bandit
+* Stochastic Bandit
+* implementing on spark to support parallel and online learning
