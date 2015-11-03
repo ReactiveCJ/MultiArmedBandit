@@ -75,4 +75,4 @@ libraryDependencies ++= Seq(
 #To Do
 * Contextual Bandit
 * Stochastic Bandit
-* implementing on spark to support parallel and online learning
+* Implementing on spark to support parallel and online learning
