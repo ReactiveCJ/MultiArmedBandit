@@ -12,8 +12,8 @@ Exploration solves the Multi-armed Bandit Problem by exploring any arm that does
 The trade-off between exploitation and exploration is also faced in reinforcement learning.
 
 # Application
-Real Time Bidding of online advertisement
-Website/app optimization problem instead of A/B Test
+* Real Time Bidding of online advertisement
+* Website/app optimization problem
 
 #Algorithm
 ##Epsilon-Greedy
