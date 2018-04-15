@@ -20,8 +20,8 @@ package object util {
 
   implicit val orderingBeta = new Ordering[Beta]{
     def compare(b1:Beta,b2:Beta):Int={
-      val u1 = b1.mean
-      val u2 = b2.mean
+      val u1 = b1.sample()
+      val u2 = b2.sample()
       if(u1 < u2)
         -1
       else if(u1 > u2)
